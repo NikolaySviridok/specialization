@@ -15,4 +15,4 @@ def search():
        search_num = int(input("Угадайте число: "))
     print([["Загаданное число меньше", "Загаданное число больше"][search_num < num], "Угадали!"][search_num == num])
     count -= 1
-    print("Попытки закончились") if count == 0:
+    print("Попытки закончились") if count == 0: break
