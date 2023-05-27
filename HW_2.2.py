@@ -3,6 +3,7 @@
 # - дробь с числителем и знаменателем. Программа должна возвращать
 # сумму и произведение* дробей. Для проверки своего кода 
 # используйте модуль fractions.
+
 class UserFractions:
     def __init__(self, top: int, bottom: int, integer=0):
         self.top = top
