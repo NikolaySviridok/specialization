@@ -6,7 +6,5 @@ def fibona44i(limit: int):
         yield fibo[-1]
         fibo.append(fibo[-1] + fibo[-2])
         limit -= 1
-
-
 for number in fibona44i(10):
     print(number)
